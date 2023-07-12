@@ -14,7 +14,7 @@ const HeroSection = () => {
         </div>
 
         <div>
-            <img src='./images/illustration.png' className='#'></img>
+            <img src='./images/illustration.png'></img>
         </div>
     </div>
   )

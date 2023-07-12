@@ -9,7 +9,7 @@ export default function Clients() {
             <h2 className='px-80'>We have been working with some Fortune 500+ clients</h2>
         </div>
 
-        <div className='flex gap-40'>
+        <div className='flex gap-40 py-10'>
             <img src='./images/log1.png'></img>
             <img src='./images/log2.png'></img>
             <img src='./images/log3.png'></img>

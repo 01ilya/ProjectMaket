@@ -5,7 +5,7 @@ export default function Header() {
     <div className='flex px-28 justify-between items-center py-5'>
       
       <div>
-        <img src='./images/logo.png'></img>
+        <img src='./images/Logo01.png'></img>
       </div>
 
       <ul className='flex gap-12'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Unlock() {
   return (
-    <div className='flex pt-10 px-20' >
+    <div className='flex pt-28 px-20' >
         <img src='./images/unlock.png'></img>
         <div>
             <h1>The unseen of spending three years at Pixelgrade</h1>

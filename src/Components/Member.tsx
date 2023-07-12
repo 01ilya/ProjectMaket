@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Member() {
   return (
-    <div className='pt-10 flex flex-col items-center'>
+    <div className='pt-10 flex flex-col items-center bg-silver'>
         <div>
           <h1>Manage your entire community in a single system</h1>
           <h2>Who is Nextcent suitable for?</h2>
