@@ -46,7 +46,7 @@ export default function Footer() {
          <div className='flex flex-col items-start gap-6'>
             <h1 className='text-white py-4 text-xl'>Stay up to date</h1>
             <input type="text" className='rounded-md h-10 bg-slate-700' placeholder="  Your email address">
-              <img src='./images/send.svg'></img>
+              {/* <img src='./images/send.svg'></img> */}
               </input>
          </div>
 
