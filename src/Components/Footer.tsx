@@ -2,17 +2,17 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' flex bg-neutral-black  items-start gap-[125px] px-36'>
+    <div className=' flex bg-neutral-black justify-between items-start gap-[125px] px-[165px] py-10'>
         {/* 11111111 */}
-        <div className=' py-16'>
-            <div className='pt-8'>
+        <div className='flex flex-col items-start gap-10 pt-6'>
+            <div className='flex items-center gap-2'>
                 <img src="./images/Logo.png" alt="logo" />
             </div>
-            <div className='py-10'>
+            <div className='flex flex-col items-center gap-2'>
              <div className='Body-Regular-Body-3 text-neutral-silver'>Copyright © 2020 Nexcent ltd.</div>
              <div className='Body-Regular-Body-3 text-neutral-silver'>All rights reserved</div>
             </div>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 items-start'>
              <img src="./images/footericon1.png" />
              <img src="./images/footericon2.svg" />
              <img src="./images/footericon3.png" />
@@ -21,10 +21,10 @@ export default function Footer() {
         </div>
 
         {/* 2222222222 */}
-       <div className='flex items-start gap-8 py-16 px-36'>
+       <div className='flex items-start gap-8'>
          
-         <div className='flex flex-col items-start gap-6 '>
-          <div className='text-neutral-white'><h4>Company</h4></div>
+         <div className='flex flex-col items-start'>
+          <div className='text-neutral-white pb-6'><h4>Company</h4></div>
             <ul className='flex flex-col  gap-3'>
             <li className='text-white'>About us</li>
             <li className='text-white'>Blog</li>
@@ -33,8 +33,8 @@ export default function Footer() {
             <li className='text-white'>Testimonials</li>
           </ul>
          </div>
-         <div className='flex flex-col items-start gap-6 '>
-          <div className='text-neutral-white'><h4>Support</h4></div>
+         <div className='flex flex-col items-start '>
+          <div className='text-neutral-white pb-6'><h4>Support</h4></div>
          <ul className='flex flex-col  gap-3'>
            <li className='text-white'>Help center</li>
            <li className='text-white'>Terms of service</li>
@@ -44,9 +44,9 @@ export default function Footer() {
            </ul>
          </div>
          <div className='flex flex-col items-start gap-6'>
-            <h1 className='text-white py-4 text-xl'>Stay up to date</h1>
-            <input type="text" className='rounded-md h-10 bg-slate-700' placeholder="  Your email address">
-              {/* <img src='./images/send.svg'></img> */}
+            <h4 className=' Heading-Headline-4 text-neutral-white'>Stay up to date</h4>
+            <input type="text" className='rounded-md h-10 bg-slate-700 w-64' placeholder="  Your email address">
+            
               </input>
          </div>
 
