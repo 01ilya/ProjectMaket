@@ -21,11 +21,11 @@ function App() {
     <Member></Member>
     <Unlock></Unlock>
     <Achievements></Achievements>
-    {/* <Unlock2></Unlock2> */}
-    {/* <Customers></Customers> */}
-    {/* <Updates></Updates> */}
-    {/* <Frame></Frame> */}
-    {/* <Footer></Footer> */}
+    <Unlock2></Unlock2>
+    <Customers></Customers>
+    <Updates></Updates>
+    <Frame></Frame>
+    <Footer></Footer>
    
    </div>
 );
