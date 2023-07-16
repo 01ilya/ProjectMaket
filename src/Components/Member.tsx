@@ -11,7 +11,7 @@ export default function Member() {
 
         <div className=' flex px-36 py-4 justify-between items-center gap-12'> 
           
-          <div className=' flex flex-col items-center py-6 px-8 gap-2 rounded-lg shadow-[0px_2px_4px_0px_rgba(171,190,209,0.20)] bg-neutral-white '>
+          <div className=' flex flex-col items-center py-6 px-8 gap-2 rounded-lg shadow-[0px_2px_4px_0px_rgba(171,190,209,0.20)] bg-neutral-white'>
             <div className='flex w-64 flex-col items-center gap-16'>
               <img src='./images/icon1.png' ></img>
               <h3 className=' self-stretch flex flex-col justify-center text-center'>Membership Organisations</h3>
@@ -29,10 +29,10 @@ export default function Member() {
           </div>
 
 
-          <div className='flex flex-col items-center py-6 px-8 gap-2 rounded-lg shadow-[0px_2px_4px_0px_rgba(171,190,209,0.20)] bg-neutral-white '>
+          <div className='flex ] flex-col items-center py-6 px-8 gap-2 rounded-lg shadow-[0px_2px_4px_0px_rgba(171,190,209,0.20)] bg-neutral-white '>
             <div className='flex w-64 flex-col items-center gap-16'>
               <img src='./images/icon3.png'></img>
-              <h3 className=' self-stretch flex flex-col justify-center text-center'>Clubs And Groups</h3>
+              <h3 className=' self-stretch  flex flex-col justify-center text-center pr-2'>Clubs And Groups</h3>
             </div> 
             <div className='Body-Regular-Body-3 text-center text-neutral-grey flex flex-col w-64'>Our membership management software provides full automation of membership renewals and payments</div>
            </div>

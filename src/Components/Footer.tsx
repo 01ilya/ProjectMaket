@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         {/* 2222222222 */}
-       <div className='flex items-start gap-8'>
+       <div className='flex items-start gap-12'>
          
          <div className='flex flex-col items-start'>
           <div className='text-neutral-white pb-6'><h4>Company</h4></div>
@@ -45,9 +45,13 @@ export default function Footer() {
          </div>
          <div className='flex flex-col items-start gap-6'>
             <h4 className=' Heading-Headline-4 text-neutral-white'>Stay up to date</h4>
-            <input type="text" className='rounded-md h-10 bg-slate-700 w-64' placeholder="  Your email address">
-            
+            <div className='flex justify-start items-center'>
+             
+              <input type="text" className='rounded-md h-10 bg-slate-700 w-64' placeholder="  Your email address">
               </input>
+              <div className='ml-[-28px] mt-2'><button><img src='./images/Send.svg'></img></button></div>
+              
+            </div>
          </div>
 
        </div>

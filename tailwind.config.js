@@ -3,6 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js,tsx,}"],
   theme: {
     extend: {
+      backgroundImage: {
+        '1': "url('/public/images/image01.png')",
+        '2': "url('/public/images/image02.png')",
+        '3': "url('/public/images/image03.png')",
+      },
       colors: {
 
         'neutral-black': '#263238',
