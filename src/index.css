@@ -4,6 +4,19 @@
 @tailwind utilities;
 
 
+.background-1 {
+   @apply bg-1;
+}
+.background-2 {
+    @apply bg-2;
+ }
+ .background-3 {
+    @apply bg-3;
+ }
+  
+
+
+
 .Body-Regular-Body-1 {
  font-family: Inter;
  font-size: 18px;

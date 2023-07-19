@@ -1,8 +1,17 @@
 import React from 'react'
 import Right from '../assets/Right'
+import classNames from 'classnames';
 
 export default function Updates() {
+  const Array = [{text:'Creating Streamlined Safeguarding Processes with OneRen', img: 'background-1', }, {text:'What are your safeguarding responsibilities and how can you manage them?', img: 'background-2',}, {text:'Revamping the Membership Model with Triathlon Australia', img: 'background-3',} ];
+  
+    
+
+  
   return (
+
+  
+
     <div className='flex flex-col items-center gap-4 pt-10'>
       
       <div className='flex flex-col items-center gap-2 '>
@@ -11,41 +20,24 @@ export default function Updates() {
       </div>
 
 
-      <div className='flex justify-between items-centr  h-[366px]'>
+      <div className='flex justify-between items-centr  h-[366px] gap-4'>
 
-         <div className='flex flex-col items-center  '>
-             <div className=' bg-1 bg-cover w-[368px] h-[286px] bg-no-repeat rounded-lg  mb-[-96px]'/>
+       {Array.map(({text, img}:any) => {
+        return (
+
+          <div className='flex flex-col items-center  '>
+             <div className={ `bg-cover w-[368px] h-[286px] bg-no-repeat rounded-lg  -mb-[96px] ${img}`}/> 
              <div className='flex  flex-col items-center  rounded-lg bg-neutral-silver gap-4'>
-              <h4 className='text-center text-neutral-grey w-[285px] h-[84px] pt-4 px-4'>Creating Streamlined Safeguarding Processes with OneRen</h4>
+              <h4 className='text-center text-neutral-grey w-[285px] h-[84px] pt-4 px-4'>{text}</h4>
               <div className='flex p-2 justify-center items-center self-stretch'>
                 <h4 className='text-center text-brand-primary pt-6 mb-6'>Readmore</h4>
-                <div className='w-6 h-6 '><Right></Right></div>
+                <div className='w-6 h-6 '><Right /></div>
               </div>
              </div>
          </div>
 
-         <div className='flex flex-col items-center  px-4'>
-         <div className=' bg-2  w-[368px] h-[286px] bg-no-repeat  rounded-lg  mb-[-96px]'/>
-             <div className='flex  flex-col items-center  rounded-lg bg-neutral-silver gap-4'>
-              <h4 className='text-center text-neutral-grey w-[285px] h-[84px] pt-4 '>What are your safeguarding responsibilities and how can you manage them?</h4>
-              <div  className='flex p-2 justify-center items-center self-stretch'>
-                <h4 className='text-center text-brand-primary pt-6 mb-6'>Readmore</h4>
-              <div className='w-6 h-6 '><Right></Right></div>
-              </div>
-             </div>
-         </div>
-
-         <div className='flex flex-col items-center  '> 
-         <div className=' bg-3  w-[368px] h-[286px] bg-no-repeat rounded-lg mb-[-96px]'/>
-             <div className='flex  flex-col items-center  rounded-lg bg-neutral-silver gap-4 '>
-              <h4 className='text-center text-neutral-grey w-[285px] h-[84px] pt-4 px-4'>Revamping the Membership Model with Triathlon Australia</h4>
-              <div  className='flex p-2 justify-center items-center self-stretch'>
-                <h4 className='text-center text-brand-primary pt-6 mb-6'>Readmore</h4>
-              <div className='w-6 h-6 '><Right></Right></div>
-              </div>
-             </div>
-         </div>
-
+        )
+       } )}
       </div>
     </div>
 
